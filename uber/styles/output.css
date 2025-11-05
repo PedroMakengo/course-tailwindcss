@@ -241,6 +241,9 @@
   .h-full {
     height: 100%;
   }
+  .w-2\/3 {
+    width: calc(2/3 * 100%);
+  }
   .w-20 {
     width: calc(var(--spacing) * 20);
   }
@@ -378,6 +381,9 @@
   }
   .py-8 {
     padding-block: calc(var(--spacing) * 8);
+  }
+  .py-12 {
+    padding-block: calc(var(--spacing) * 12);
   }
   .pt-3 {
     padding-top: calc(var(--spacing) * 3);
@@ -530,6 +536,11 @@
   .sm\:flex {
     @media (width >= 40rem) {
       display: flex;
+    }
+  }
+  .sm\:w-full {
+    @media (width >= 40rem) {
+      width: 100%;
     }
   }
   .sm\:grid-cols-3 {
