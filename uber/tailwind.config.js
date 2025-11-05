@@ -5,7 +5,6 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        // Tente este caminho relativo
         'uber': "url('./src/assets/bguber.png')",
         'city': "url('./src/assets/bg-city.png')",
       }

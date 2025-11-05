@@ -24,6 +24,7 @@
     --radius-lg: 0.5rem;
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
+    --background-image-uber: url("../src/assets/bguber.png");
   }
 }
 @layer base {
@@ -269,11 +270,8 @@
   .bg-white {
     background-color: var(--color-white);
   }
-  .bg-\[url\(\.\/assets\/bguber\.png\)\] {
-    background-image: url(./assets/bguber.png);
-  }
-  .bg-\[url\(\/assets\/bguber\.png\)\] {
-    background-image: url(/assets/bguber.png);
+  .bg-uber {
+    background-image: var(--background-image-uber);
   }
   .bg-cover {
     background-size: cover;
