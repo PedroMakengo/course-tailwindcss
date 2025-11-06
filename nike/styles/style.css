@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+@theme {
+  --background-image-nike: url("../src/assets/bg.png");
+}
