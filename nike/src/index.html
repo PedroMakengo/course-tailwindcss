@@ -7,14 +7,16 @@
     <link rel="stylesheet" href="/styles/output.css" />
   </head>
   <body>
-    <main class="w-full h-screen bg-white flex flex-col md:flex-row">
-      <section class="flex flex-col flex-1 px-8 h-full">
-        <h1 class="font-bold text-2xl">Sujeito Programador</h1>
-        <div class="flex flex-1 flex-col gap-5 justify-center sm:px-15">
+    <main
+      class="bg-sky-50 w-full h-screen flex flex-col sm:flex-row px-4 md:px-0 items-center justify-center"
+    >
+      <section class="bg-white flex flex-col px-8 py-8 md:h-full lg:flex-1">
+        <h1 class="hidden sm:block font-bold text-2xl">Sujeito Programador</h1>
+        <div class="flex flex-1 flex-col gap-5 justify-center sm:px-15 h-full">
           <h2 class="text-5xl md:text-7xl md:max-w-sm font-bold">
             Lançamento Nike Air.
           </h2>
-          <p class="font-medium text-xl md:text-lg text-gray-400">
+          <p class="font-bold text-sm text-gray-600 md:text-xl">
             O Tênis do futuro. <br />
             O futuro a um passo do seu alcance!
           </p>
@@ -25,8 +27,9 @@
           >
         </div>
       </section>
+
       <section
-        class="hidden md:flex bg-nike bg-cover flex-1 flex-col items-center justify-center"
+        class="bg-nike bg-cover bg-no-repeat py-10 md:h-full md:flex-1 flex items-center justify-center"
       >
         <img src="./assets/tenis.png" alt="Tênis da Nike" />
       </section>
